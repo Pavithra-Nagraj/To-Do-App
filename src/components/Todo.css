@@ -1,0 +1,85 @@
+body {
+  background: rgb(255, 173, 65);
+}
+
+.todo-container {
+  background: rgb(41, 33, 33);
+  width: 40vw;
+  margin: 10em auto;
+  border-radius: 15px;
+  padding: 20px 10px;
+  color: white;
+  border: 3px solid rgb(36, 110, 194);
+}
+
+.task {
+  border: 1px solid white;
+  border-radius: 5px;
+  /* padding: 0.5em; */
+  margin: 0.5em;
+}
+
+.btn{
+  background: rgb(12, 124, 251);
+  border-radius: 2px;
+  margin: -27px 48px;
+  padding: 1px 6px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  float: right;
+}
+
+.header {
+  margin: 0.5em;
+  font-size: 2em;
+  text-align: center;
+}
+
+.create-task input[type=text] {
+  margin: 2.5em 2em;
+  width: 50%;
+  outline: none;
+  border: none;
+  padding: 0.7em;
+}
+.select{
+  height:35px;
+  width: 20%;
+  border: none;
+  padding: 0.7em;
+}
+
+.add-btn{
+  height:36px;
+  width: 13%;
+  border: none;
+  margin-left: 32px;
+  background-color: yellowgreen;
+}
+
+.element.style {
+  background: red;
+  margin-right: 10px;
+}
+
+.cross{
+  background: red;
+  float: right;
+  margin: -29px 10px;
+}
+.prority{
+  margin-left: 536px;
+  font-family: auto;
+    color: limegreen;
+}
+.sort{
+ 
+    float: right;
+    margin-top: -45px;
+    width: 19%;
+    background-color: orange;
+    height: 31px;
+
+  
+}
